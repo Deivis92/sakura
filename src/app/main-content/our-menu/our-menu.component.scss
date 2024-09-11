@@ -1,0 +1,90 @@
+h2,
+h3 {
+  font-size: 80px;
+  font-weight: bold;
+  color: #9f0908;
+  display: flex;
+  font-family: Raleway;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  justify-content: center;
+  margin: 0;
+  padding-top: 120px;
+}
+
+h2 {
+  padding-bottom: 64px;
+}
+
+h3 {
+  padding-bottom: 0;
+}
+
+
+
+.ourMenu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: url("../../../assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg");
+    background-size: cover;
+  
+    .tonkotsu, .shio {
+        display: flex;
+        
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 80px;
+        padding-bottom: 56px;
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+
+  
+
+    .spicy {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 80px;
+        padding-bottom: 56px;
+        margin-right: 120px;
+        margin-left: 120px;
+}
+.ramenSizing {
+    width: 352px;
+    height: 352px;
+   
+  }
+
+  .menuTitel {
+    font-family: "Economica", sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 56px;
+    padding-bottom: 16px;
+  }
+
+  .list {
+    font-size: 32px;
+    font-weight: bold;
+    color: #675e54;
+  }
+  
+  td {
+    padding-bottom: 8px;
+    font-weight: 900;
+  }
+      
+}
+
+.margin-bottom-56 {
+    margin-bottom: 56px;
+}
+        
+
+ 
+
+
+  

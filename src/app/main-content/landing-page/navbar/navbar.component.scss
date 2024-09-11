@@ -1,0 +1,90 @@
+nav {
+    width: 100%;
+    display: flex;
+    
+   
+   
+    
+
+    >div {
+        width: 100%;
+        height: 112px;
+        margin-right: 160px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+        position: absolute;
+        top: 0;
+       
+        >img {
+            width: 64px;
+            height: 64px;
+            margin-left: 160px;
+           
+            cursor: pointer;
+        }
+        
+     
+    }
+}
+
+.nav-content {
+    display: flex;
+    gap: 16px;
+    margin-right: 160px;
+  
+    >a:hover{
+      color: red;
+      
+
+  }
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.phone {
+    width: 24px;
+    height: 24px;
+    padding-left: 4px;
+  }
+  
+  .button {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    background-color: #9f0908;
+    border-radius: 15px;
+    border: 2px solid white;
+  
+    &:hover {
+      background-color: #994e4e;
+      cursor: pointer;
+    }
+  
+    a {
+      text-decoration: none;
+      color: white;
+      cursor: pointer;
+      margin-right: 20px;
+      align-items: center;
+  
+      &:hover {
+        background-color: #994e4e;
+      }
+  
+      // Use of !important for margin override
+      margin-right: 0 !important;
+    }
+  }
